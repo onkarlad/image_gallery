@@ -1,0 +1,110 @@
+@media(max-width:991px){
+    header{
+        height: 50vh;
+    }
+
+    label i{
+        font-size: large;
+    }
+    #menubtn:checked ~.links{
+        left:0%;
+    }
+    #menubtn:checked ~label i::before{
+        content: "\f00d";
+    }
+    .logo{
+        padding: 15px 10px;
+    }
+    nav .links{
+        position: fixed;
+        top: 5%;
+        left:-100%;
+        background-color: white;
+        width: 100%;
+        padding:70px 0px;
+        margin-left: 0%;
+        display: block;
+        text-align: center;
+        transition: all .3s ease-in-out;
+    }
+    .links ul{
+        display: block;
+    }
+    .links ul li{
+        padding: 10px 0px;
+    }
+    .links ul li a{
+        font-size: 18px;
+        font-weight:500;
+    }
+    .menubutton{
+        display: block;
+    }
+    
+    .loginbutton{
+    display: block;
+    position: relative;
+    top:0%;
+    left:45%;     
+    margin-top:10px;
+    } 
+    .filter_gallery{
+        padding: 20px;
+    }
+    .portfolio_items .item{
+        width: 300px;
+        height: 300px;
+        margin:10px 10px;
+    }
+   
+}
+
+@media(max-width:767px){
+    .loginbutton{
+        left:43%;     
+        }  
+        nav .links{
+            top: 6%;
+            height: 100vh;
+        }
+        header{
+            height: 50vh;
+        }
+}
+
+@media(max-width:576px){
+    header{
+        height: 60vh ;
+    }
+    .loginbutton{
+        left:40%;     
+        } 
+        nav .links{
+            top: 7%;
+        } 
+        .about_img img{
+            object-fit: cover;
+            width: 160px;
+            height: 160px;  
+        }
+      
+}
+@media(max-width:427px){
+    .search_btn{
+        margin-top:15px;
+    }
+    header{
+        height: 60vh ;
+    }
+    nav .links{
+        top: 8%;
+    } 
+}
+@media(max-width:370px){
+    .loginbutton{
+        left:37%;     
+        }  
+        header{
+            height: 80vh ;
+        }
+}
