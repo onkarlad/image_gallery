@@ -1,6 +1,6 @@
 @media(max-width:991px){
     header{
-        height: 50vh;
+        height: 95vh;
     }
 
     label i{
@@ -68,14 +68,11 @@
             height: 100vh;
         }
         header{
-            height: 50vh;
+            height: 100vh;
         }
 }
 
 @media(max-width:576px){
-    header{
-        height: 60vh ;
-    }
     .loginbutton{
         left:40%;     
         } 
@@ -93,9 +90,7 @@
     .search_btn{
         margin-top:15px;
     }
-    header{
-        height: 60vh ;
-    }
+   
     nav .links{
         top: 8%;
     } 
@@ -104,7 +99,4 @@
     .loginbutton{
         left:37%;     
         }  
-        header{
-            height: 80vh ;
-        }
 }
